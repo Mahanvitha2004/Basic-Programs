@@ -1,0 +1,5 @@
+List=[2,3,4,6,9,12,14,16]
+print(List)
+List.insert(1,7)
+print("insert new list")
+print(List)

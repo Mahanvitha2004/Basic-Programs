@@ -1,0 +1,9 @@
+testlist=[2,4,6,8,10,12]
+print("The original list is:"+str(testlist))
+res=[]
+for i in testlist:
+   if i not in res:
+      res.append(i)
+      print("the list after removing the duplicates",str(res))
+           
+           
